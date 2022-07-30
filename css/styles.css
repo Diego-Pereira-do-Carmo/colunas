@@ -78,12 +78,28 @@ span {
     color: hsl(31, 77%, 52%);
 }
 
+#container-sedans button:hover {
+    cursor: pointer;
+    color: #fff;
+    border: 3px solid #fff;
+    background-color: hsl(31, 77%, 52%);
+        
+}
+
 #container-suvs button {
     width: 50%;
     padding: 0.7rem;
     border: none;
     border-radius: 1rem;
     color: hsl(184, 100%, 22%);
+}
+
+#container-suvs button:hover {
+    cursor: pointer;
+    color: #fff;
+    border: 3px solid #fff;
+    background-color: hsl(184, 100%, 22%);
+    
 }
 
 #container-luxury button {
@@ -95,6 +111,16 @@ span {
     display: flex;
     justify-content: center;
 }
+
+#container-luxury button:hover {
+    cursor: pointer;
+    color: #fff;
+    border: 3px solid #fff;
+    background-color:hsl(179, 100%, 13%);
+    
+}
+
+
 
 img {
     display: flex;
