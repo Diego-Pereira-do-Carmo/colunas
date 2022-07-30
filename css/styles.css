@@ -4,105 +4,99 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Lexend Deca', sans-serif;
+    font-weight: 400;
     color: #fff;
 }
 
-body{
-    width: 100%;
+body {
+    width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    
+    justify-content: center;
 }
 
 main {
-    width: 80%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
+    width: 70%;
+    height: 70%;
+    display: flex; 
 }
 
-.cards{
-    width: 33.3%;
-    height: 100%;
-    display: flex;
-    
-}
-
-.cards img {
-    margin-top: 2rem;
-    width: 7rem;
-}
-
-.cards h2 {
-    font-family: 'Big Shoulders Display', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    margin-left: 3rem;
-}
-
-.cards span {
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-}
-
-#sedans{
+#container-sedans {
     width: 100%;
     height: 100%;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: hsl(31, 77%, 52%);
+    text-align: center;
+    align-items: center;
 }
 
-#sedans button{
-    width: 50%;
-    padding: 0.7rem;
-    background-color: #fff;
-    color: hsl(31, 77%, 52%);
-    border: none;
-    border-radius: 5px;
-    margin-left: 3rem;
-}
-
-#suvs{
+#container-suvs {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     background-color: hsl(184, 100%, 22%);
-}
-
-#suvs button{
-    width: 50%;
-    padding: 0.7rem;
-    background-color: #fff;
-    color: hsl(184, 100%, 22%);
-    border: none;
-    border-radius: 5px;
-    margin-left: 3rem;
-}
-
-#luxury {
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    background-color: hsl(179, 100%, 13%);
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
 }
 
-#luxury button{
+#container-luxury {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+#container-sedans button {
     width: 50%;
     padding: 0.7rem;
-    background-color: #fff;
-    color: hsl(31, 77%, 52%);
     border: none;
-    border-radius: 5px;
-    margin-left: 3rem;
-    color: hsl(179, 100%, 13%);
+    border-radius: 1rem;
+    color: hsl(31, 77%, 52%);
 }
 
+#container-suvs button {
+    width: 50%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 1rem;
+    color: hsl(184, 100%, 22%);
+}
+
+#container-luxury button {
+    width: 50%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 1rem;
+    color: hsl(179, 100%, 13%);
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: flex;
+    margin-right: 7rem;
+}
